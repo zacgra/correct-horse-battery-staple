@@ -37,10 +37,10 @@ const getPassword = async () => {
 
 const printPassword = async () => {
   const pw = await getPassword();
-  console.log("Password (readable):   ", pw.readable);
-  console.log("Password (useable):    ", pw.useable);
-  console.log("Bits of Entropy:       ", pw.bitsOfEntropy);
-  console.log("Equiv AlphaNum Length: ", pw.equivAlphaNum);
+  console.log("Password (readable):      ", pw.readable);
+  console.log("Password (useable):       ", pw.useable);
+  console.log("Bits of Entropy:          ", pw.bitsOfEntropy);
+  console.log("Equiv AlphaNum PW Length: ", pw.equivAlphaNum);
 };
 
 printPassword();
