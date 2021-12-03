@@ -1,0 +1,23 @@
+{
+  "name": "random-password-generator",
+  "version": "1.0.0",
+  "description": "A random four-word password generator that runs on Node.js.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacgra/random-password-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacgra/random-password-generator/issues"
+  },
+  "homepage": "https://github.com/zacgra/random-password-generator#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  },
+  "type": "module"
+}
