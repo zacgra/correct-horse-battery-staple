@@ -1,4 +1,4 @@
-# random-password-generator
+# correct-horse-battery-staple
 
 A random password generator that runs on Node.js
 
