@@ -1,8 +1,8 @@
 # correct-horse-battery-staple
 
-A random password generator that runs on Node.js
+A random password generator that runs on Node.js inspired by the comic https://xkcd.com/936/
 
-This password generator uses a word list as its symbol pool, borrowing the concept from https://xkcd.com/936/.
+This password generator uses a word list as its symbol pool, then compares using entropy to a corresponding length of an alphanumeric password.
 
 ## What does it do?
 
